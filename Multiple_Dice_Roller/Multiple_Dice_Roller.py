@@ -1,4 +1,4 @@
-import random
+import random                    #use the random module to generate a random number
 
 print("Welcome to the Multiple Dice Roller")
 n = input("Enter the number of dice you want to roll: ")
@@ -12,8 +12,8 @@ def roll_dice():                 # define a function to roll the dice
 output = []                      # create an empty list to store the output
 
 
-# initially set the user preference to roll the dice as yes
-option = "y"
+
+option = "y"                     # initially set the user preference to roll the dice as yes
 
 if n > 0:                        # check if the number of dice value is valid
     while option == "y":
@@ -28,4 +28,4 @@ if n > 0:                        # check if the number of dice value is valid
             "Press y to roll again or press any other key to exit: ")
         print("\n")
 else:
-    print("Enter a valid number of dice above 0")
+    print("Error: Try entering a valid dice number above 0")
