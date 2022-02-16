@@ -3,7 +3,7 @@ import socket
 port = 5550
 host = 'xxx.xx.xxx.xxx'  #enter client ip address
 
-server = ('xxx.xx.xxx.xxx', 5555)
+server = ('xxx.xx.xxx.xxx', 5555) #enter server ip address
 mysocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 mysocket.bind((host, port))
