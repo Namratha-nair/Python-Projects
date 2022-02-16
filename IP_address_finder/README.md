@@ -1,4 +1,4 @@
-# IP address Generator
+# IP address finder
 An Internet Protocol address (IP address) is a numerical label that is connected to a computer network that uses the Internet Protocol for communication.<br/>
 
 To find the IP address, 
