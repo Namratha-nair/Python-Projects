@@ -2,7 +2,7 @@ import socket                                           # Socket module provides
 
 
 host = socket.gethostname()                             #get the host name
-port = 5555                                             #initiate any port above 1024
+port = 5555                                             #initiate to any port number above 1024
 
 mysocket = socket.socket()                              #create an instance
 mysocket.bind((host, port))                             #bind host and port together
