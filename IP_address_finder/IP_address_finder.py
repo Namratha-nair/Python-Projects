@@ -13,4 +13,4 @@ def get_IP():                                           #define a function to ge
 choice = "y"                                             #set choice to y initially
 while choice == "y":
     get_IP()
-    choice = input("\nEnter y to continue finding IP address or Press any key to exit!: ")
+    choice = input("\nEnter y to continue finding IP address or enter any other key to exit!: ")
